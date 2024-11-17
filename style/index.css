@@ -1,0 +1,88 @@
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    background-color: rgb(89, 89, 250);
+    color: white;
+    font-style: italic;
+}
+.btn{
+    padding: 14px 40px;
+    background-color: rgb(208, 82, 36);
+}
+.baner{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    background-color: rgb(248, 153, 248);
+    
+}
+.h{
+    text-align: center;
+}
+.call{
+    background-color: blanchedalmond;
+    padding: 30px 20px;
+}
+
+
+.card{
+    display: flex;
+    gap: 60px;
+}
+.heading{
+    display: flex;
+    gap: 300px;
+}
+h1{
+    margin-left: 50px;
+}
+.container{
+    margin-left: 100px;
+}
+.test{
+    display: flex;
+    margin-left: 90px;
+    gap: 90px;
+    margin-top: 60px;
+}
+.flex{
+    display: flex;
+    gap: 40px;
+   
+}
+.footer{
+    text-align: center;
+    margin-top: 60px;
+    color: white;
+}
+.color{
+    background-color: black;
+    margin-top: 100px;
+    padding: 130px 200px; 
+}
+h4{
+    color: orange;
+}
+
+
+
+@media screen and (max-width: 480px) {
+    
+    nav, .nav > h4, .baner, .pic, .btn, .call, .container, .contact, .color, .card, .h, .heading, .flex, .test footer{
+        flex-direction: column;
+    }
+    nav{
+        gap: 20px;
+    }
+    .pic{
+        width: 100%;
+    }
+    
+    .footer{
+        padding: 10px;
+    }
+
+    
+}
